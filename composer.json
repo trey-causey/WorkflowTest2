@@ -1,0 +1,13 @@
+{
+    "name": "tjc/workflow-test2",
+    "require-dev": {
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "authors": [
+        {
+            "name": "trey-causey",
+            "email": "trey.causey@outlook.com"
+        }
+    ],
+    "require": {}
+}
