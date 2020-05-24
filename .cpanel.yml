@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/sitejsvh/WorkflowTest2.sitesystemhub.com/
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp composer.json $DEPLOYPATH
+    - /bin/cp src $DEPLOYPATH
