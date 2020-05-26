@@ -3,7 +3,8 @@
     "require-dev": {
         "guzzlehttp/guzzle": "^6.5",
         "guzzlehttp/psr7": "^1.6.1",
-        "psr/container": "^1.0.0"
+        "psr/container": "^1.0.0",
+        "phpunit/phpunit": "^8.5"
     },
     "authors": [
         {
@@ -11,5 +12,11 @@
             "email": "trey.causey@outlook.com"
         }
     ],
-    "require": {}
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "TestNamespace\\Test1\\": "../../src"
+        }
+    }
 }

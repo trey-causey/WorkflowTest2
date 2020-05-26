@@ -4,7 +4,10 @@ deployment:
     - export DEPLOYPATH=/home/sitejsvh/WorkflowTest2.sitesystemhub.com/
     - /bin/cp index.php $DEPLOYPATH
     - /bin/cp composer.json $DEPLOYPATH
+    - /bin/cp header.php $DEPLOYPATH
+    - /bin/cp footer.php $DEPLOYPATH
     - /bin/cp -R app $DEPLOYPATH
+    - /bin/cp -R com $DEPLOYPATH
     - /bin/cp -R public $DEPLOYPATH
     - /bin/cp -R resources $DEPLOYPATH
     - /bin/cp -R src $DEPLOYPATH
